@@ -58,7 +58,7 @@ function operate() {
             disp.innerHTML = fitNumber(result);
             break;
         case "-":
-            result = operand1 - operand2;
+            result = operand2 - operand1;
             if (result > 9999999999 || result < -9999999999) {
                 disp.innerHTML = "OVF Err.";
                 return;
