@@ -1,0 +1,87 @@
+body {
+    display: flex;
+    justify-content: center;
+    background-color: lightpink;
+}
+
+#clear.bOperator {
+    width: calc(50% - 3.25px);
+}
+
+#equals.bOperator {
+    width: calc(50% - 3.25px);
+}
+
+#zero.bNumber {
+    width: calc(75% - 3.25px);
+}
+
+.calculator {
+    display: flex;
+    flex-wrap: wrap;
+    width: 300px;
+    height: 450px;
+    border: 2px solid black;
+    border-radius: 21px;
+    background-color: darkslategrey;
+    margin-top: 50px;
+}
+
+.bNumber {
+    width: calc(25% - 3.25px);
+    height: calc(16% - 3px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid black;
+    border-radius: 20px;
+    background-color: gray;
+    font-size: 50px;
+    color: #bcbcbc;
+    user-select: none;
+}
+
+.bNumber:hover {
+    background-color: lightslategray;
+}
+
+.bNumber:active {
+    background-color: lightgray;
+}
+
+.display {
+    width: 100%;
+    height: calc(20% - 3px);
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    border: 2px solid black;
+    border-radius: 20px;
+    background-color: lightsalmon;
+    font-size: 50px;
+    color: whitesmoke;
+    font-weight: bold;
+    font-family: Helvetica, sans-serif;
+}
+
+.bOperator {
+    width: calc(25% - 3.25px);
+    height: calc(16% - 3px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid black;
+    border-radius: 20px;
+    background-color: orange;
+    font-size: 50px;
+    color: darkred;
+    user-select: none;
+}
+
+.bOperator:hover {
+    background-color: darkorange;
+}
+
+.bOperator:active {
+    background-color: gold;
+}
